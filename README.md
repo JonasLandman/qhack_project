@@ -36,15 +36,15 @@ We can use AWS SV1 for parallelizing the gradient during the training. But the c
 
 #### Datasets
 We propose 3 differents datasets to train and test our algorithm
-- **IMDB Dataset** composed of (?) sentences and (?) words in total
-- **Newsgroup Dataset** composed of (?) sentences and (?) words in total
-- An **synthetic dataset** of 'dummy' sentences with small number of sentences and words, for performance limitation and grammatical simplicity
+- **IMDB Dataset** composed of 100k sentences and 12 words in total
+- **Newsgroup Dataset** composed of 100k sentences and 12 words in total. Run `preprocessing_newsgroup.py` to obtain it. 
+- A synthetic **Dummy dataset** of simpler sentences with a smaller number of sentences and words, for performance limitation and grammatical simplicity. 
 
 
 #### Code architecture
 - The **Pennylane** variational ansatz are defined in `utils.py`
 - The NLP preprocessing using FastText is made in `embeddings.ipynb` and generate readable file as `embeddings.npy`, `sentences.npy` etc.
 - In `config.py` are defined the global configurations such as the number of words, of qubit per word, and the number of layers per ansatz.
-- In this notebook, we train the quantum variational circuit and test applications
+- In this notebook, we train the quantum variational circuit and test applications.
 
 ---
