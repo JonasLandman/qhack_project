@@ -1,6 +1,6 @@
 # Variational Language Model
 **QHack hackathon | 22-26 february 2021**\
-*By `TeamX` Slimane Thabet & Jonas Landman* 
+*By `Team X` Slimane Thabet & Jonas Landman* 
 
 
 ## Introduction
